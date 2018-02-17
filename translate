@@ -1,0 +1,11 @@
+#!/bin/bash
+# google translate API(구글 번역기)
+# Please install the following tools before using this tool
+# brew install wget jsawk
+
+KEYNAME=google_translate_key
+YOUR_GOOGLE_SECRETE_KEY="security find-generic-password -a \${USER} -s \${KEYNAME} -w"
+
+    echo "[`wget -qO- --user-agent firefox \"https://www.googleapis.com/language/translate/v2?key=$(eval $YOUR_GOOGLE_SECRETE_KEY)&q=$3&source=$1&target=$2\"`]" \
+    | jsawk -a "return this[0].data.translations[0].translatedText" \
+    | perl -MHTML::Entities -pe 'decode_entities($_)'
