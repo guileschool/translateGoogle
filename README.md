@@ -110,7 +110,7 @@ $ brew install wget jsawk
 
 ### 자동 설치( 사전 설치 )
 
-다운로드하세요 [here](https://d.pr/f/oTStsx+) <-- 자동설치용
+다운로드하세요 [here](https://d.pr/f/Nx6NOp+) <-- 자동설치용
 
 [YOUTUBE](https://youtu.be/cwyXwt0L1nU)
 
