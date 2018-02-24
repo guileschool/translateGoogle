@@ -9,6 +9,9 @@ tags: [자동제어,자동화,time-saver,리눅스,맥북,스마트홈]
 
 원문 http://guileschool.com/2018/02/15/PopClip-Extension-for-google-translate/
 
+<figure>
+<img class="width-100-height-auto" src="https://d.pr/i/0prZPq+"><figcaption><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></figcaption></figure>
+
 ### 구글 번역기 API란?
 ><a href='https://cloud.google.com/translate/'>공식홈페이지</a>
 <!--more-->
